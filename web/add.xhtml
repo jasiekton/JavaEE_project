@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Dodaj egzamin</title>
+        <link rel="stylesheet" href="css/dodaj.css" type="text/css"></link>
+    </h:head>
+    <h:body>
+        <form action="http://localhost:8080/WCY21IG1S1_Jasiek_Nowicki/api/egzaminy" method="post">
+            <label for="nazwa">Nazwa:</label>
+            <input type="text" id="nazwa" name="nazwa" required="true"/>
+
+            <label for="prowadzacy">Prowadzący:</label>
+            <input type="text" id="prowadzacy" name="prowadzacy" required="true"/>
+
+            <label for="data">Data:</label>
+            <input type="text" id="data" name="data" required="true"/>
+
+            <label for="sala">Sala:</label>
+            <input type="text" id="sala" name="sala" required="true"/>
+            
+            <br></br>
+            <input type="submit" value="Dodaj"/>
+
+        </form>   
+        <a href="http://localhost:8080/WCY21IG1S1_Jasiek_Nowicki/">
+            <button class="button">Powrót do strony głównej</button>
+        </a>
+    </h:body>
+</html>
+

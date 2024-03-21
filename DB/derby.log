@@ -1,0 +1,14 @@
+Thu Feb 22 19:42:37 CET 2024 : Serwer sieciowy Apache Derby - 10.13.1.1 - (1765088) uruchomiony i gotowy do zaakceptowania połączeń na porcie 1527 w {3} 
+----------------------------------------------------------------
+Thu Feb 22 19:42:38 CET 2024:
+ Uruchamianie wersji The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088) systemu Derby: instancja a816c00e-018d-d220-704d-0000395b7956
+w katalogu bazy danych /mnt/hgfs/shared/WCY21IG1S1_Jasiek_Nowicki/WCY21IG1S1_Jasiek_Nowicki/DB/WCY21IG1S1_Jasiek_Nowicki sun.misc.Launcher$AppClassLoader@4d7e1886 
+
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_222-8u222-b10-1~deb9u1-b10
+user.dir=/home/student/Payara_Server/javadb
+os.name=Linux
+os.arch=amd64
+os.version=4.9.0-11-amd64
+derby.system.home=/mnt/hgfs/shared/WCY21IG1S1_Jasiek_Nowicki/WCY21IG1S1_Jasiek_Nowicki/DB
+Uruchomiono program ładujący klasę bazy danych - derby.database.classpath=''
